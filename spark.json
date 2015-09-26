@@ -1,0 +1,7 @@
+{
+  "name": "Adafruit_SM2315",
+  "author": "Limor Fried/Ladyada",
+  "license": "BSD",
+  "version": "1.0.0",
+  "description": "Advanced Looping library with timeouts and stuff"
+}
