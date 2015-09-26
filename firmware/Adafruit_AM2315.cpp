@@ -19,7 +19,14 @@
   #include <util/delay.h>
 #endif
 
-#include "application.h"
+#if (PLATFORM_ID == 6)
+  #define PHOTON
+#endif
+
+#ifdef PHOTON
+  #include "application.h"
+  #define boolean bool
+#endif
 
 Adafruit_AM2315::Adafruit_AM2315() {
 }
