@@ -19,6 +19,8 @@
   #include <util/delay.h>
 #endif
 
+#include <Wire.h>
+
 Adafruit_AM2315::Adafruit_AM2315() {
 }
 
