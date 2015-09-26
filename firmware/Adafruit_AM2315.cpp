@@ -25,21 +25,20 @@
 
 #ifdef PHOTON
   #include "application.h"
-  #define boolean bool
 #endif
 
 Adafruit_AM2315::Adafruit_AM2315() {
 }
 
 
-boolean Adafruit_AM2315::begin(void) {
+bool Adafruit_AM2315::begin(void) {
   Wire.begin();
   
    // try to read data, as a test
   return readData();
 }
 
-boolean Adafruit_AM2315::readData(void) {
+bool Adafruit_AM2315::readData(void) {
   uint8_t reply[10];
   
   // Wake up the sensor
