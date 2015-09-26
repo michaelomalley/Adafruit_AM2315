@@ -84,12 +84,12 @@ bool Adafruit_AM2315::readData(void) {
 
 
 float Adafruit_AM2315::readTemperature(void) {
-  if (! readData()) return NAN;
+  if (! readData()) return 0;
   return temp;
 }
 
 float Adafruit_AM2315::readHumidity(void) {
-  if (! readData()) return NAN;
+  if (! readData()) return 0;
   return humidity;
 }
 
