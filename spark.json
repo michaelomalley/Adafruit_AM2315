@@ -3,5 +3,5 @@
   "author": "Limor Fried/Ladyada",
   "license": "BSD",
   "version": "1.0.1",
-  "description": "Advanced Looping library with timeouts and stuff"
+  "description": "This is a library for the AM2315 Humidity + Temp sensor"
 }
