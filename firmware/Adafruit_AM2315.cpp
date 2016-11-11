@@ -13,7 +13,7 @@
   Written by Limor Fried/Ladyada for Adafruit Industries.
   BSD license, all text above must be included in any redistribution
  ****************************************************/
-
+#include "OneWire/OneWire.h"
 #include "Adafruit_AM2315.h"
 #if defined(__AVR__)
   #include <util/delay.h>
